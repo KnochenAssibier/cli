@@ -31,18 +31,14 @@ git config --global user.name "Assibier"
 
 git config --global user.email "assibier@gmaile.com"
 
-// Octokit.js
-// https://github.com/octokit/core.js#readme
-const octokit = new Octokit({
-  auth: 'YOUR-TOKEN'
-})
+# GitHub CLI api
+# https://cli.github.com/manual/gh_api
 
-await octokit.request('GET /enterprises/{enterprise}/copilot/metrics', {
-  enterprise: 'ENTERPRISE',
-  headers: {
-    'X-GitHub-Api-Version': '2022-11-28'
-  }
-})
+gh api \
+  -H "Accept: application/vnd.github+json" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  /enterprises/ENTERPRISE/copilot/metrics
+
 
 
 
