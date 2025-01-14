@@ -141,3 +141,18 @@ gem sources --add https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
 
 bundle config https://rubygems.pkg.github.com/NAMESPACE USERNAME:TOKEN
 
+$ gem push --key github \
+--host https://rubygems.pkg.github.com/NAMESPACE \
+GEM_NAME-0.0.1.gem
+
+gem.metadata = { "github_repo" => "ssh://github.com/OWNER/REPOSITORY" }
+
+source "https://rubygems.org"
+
+gem "rails"
+
+source "https://rubygems.pkg.github.com/NAMESPACE" do
+  gem "GEM_NAME"
+end
+
+
