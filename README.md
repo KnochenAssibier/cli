@@ -17,3 +17,5 @@ https://github.com/octocat/.github/releases/tag/1.0
 $ GH-Repo-Ansicht
 cli/cli
 GitHubs offizielles Befehlszeilentool
+
+Bild: Screenshot des GH-PR-Status → https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png
