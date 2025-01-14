@@ -63,3 +63,7 @@ gh api \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   /orgs/ORG/team/TEAM_SLUG/copilot/metrics
 
+https://cli.github.com/manual/gh_api
+
+gh api /octocat --method GET
+
