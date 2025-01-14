@@ -100,3 +100,33 @@ gh api \
   -H "X-GitHub-Api-Version: 2022-11-28" \
   /users/USERNAME/installation
 
+# apt-get install git
+
+# add-apt-repository ppa:git-core/ppa
+# apt update; apt install git
+
+# yum install git
+# dnf install git
+
+# emerge --ask --verbose dev-vcs/git
+
+# pacman -S git
+
+# zypper install git
+
+# urpmi git
+
+# nix-env -i git
+
+# pkg install git
+
+# pkgutil -i git
+
+# pkg install developer/versioning/git
+
+# pkg_add git
+
+$ apk add git
+
+$ tazpkg get-install git
+
