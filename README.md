@@ -295,3 +295,6 @@ test-build           Tests whether the code compiles
 test-int             Run integration test with tag //go:build integration
 tidy                 Cleans up go.mod and go.sum
 
+# Gemfile
+gem 'devise'
+
