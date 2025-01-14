@@ -130,5 +130,8 @@ $ apk add git
 
 $ tazpkg get-install git
 
-
 Rails-Endpunkt
+
+---
+:github: Bearer TOKEN
+
