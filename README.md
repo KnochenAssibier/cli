@@ -1,4 +1,4 @@
-DrDrhuiigit --version
+66DrDrhuiigit --version
 
 $ gh pr Kasse 12
 remote: Objekte aufzählen:
@@ -136,3 +136,6 @@ Rails-Endpunkt
 :github: Bearer TOKEN
 
 https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
+
+gem sources --add https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
+
