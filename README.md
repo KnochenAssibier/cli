@@ -1,4 +1,4 @@
-66DrDrhuiigit --version
+Dr66DrDrhuiigit --version
 
 $ gh pr Kasse 12
 remote: Objekte aufzählen:
@@ -155,4 +155,11 @@ source "https://rubygems.pkg.github.com/NAMESPACE" do
   gem "GEM_NAME"
 end
 
+
+$ rubin -topic public.hello -record "Dragonfly out in the sun you know what I mean"
+
+9:49PM	INFO	rubin/main.go:60	Welcome to rubin  {"version": "v0.0.5", "built": "now", "commit": "7759eb6"}
+9:49PM	INFO	rubin/client.go:27	Kafka REST Proxy Client configured  {"endpoint": "https://localhost:443", "useSecret": true}
+9:49PM	INFO	rubin/client.go:53	Push record  {"url": "https://localhost.cloud:443/kafka/v3/clusters/abc-r2d2/topics/public.hello/records"}
+9:49PM	INFO	rubin/client.go:84	Record committed  {"status": "topic", "public.hello": 200, "offset": 43, "partition": 0}
 
