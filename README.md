@@ -1,4 +1,4 @@
-iigit --version
+huiigit --version
 
 $ gh pr Kasse 12
 remote: Objekte aufzählen:
@@ -31,4 +31,9 @@ git config --global user.name "Assibier"
 
 git config --global user.email "assibier@gmaile.com"
 
+manage_billing:copilot
 
+read:enterprise
+
+accept Schnur
+Die Einstellung auf application/vnd.github+jsonwird empfohlen.
