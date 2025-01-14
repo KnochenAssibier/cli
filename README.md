@@ -31,13 +31,19 @@ git config --global user.name "Assibier"
 
 git config --global user.email "assibier@gmaile.com"
 
-manage_billing:copilot
+// Octokit.js
+// https://github.com/octokit/core.js#readme
+const octokit = new Octokit({
+  auth: 'YOUR-TOKEN'
+})
 
-read:enterprise
+await octokit.request('GET /enterprises/{enterprise}/copilot/metrics', {
+  enterprise: 'ENTERPRISE',
+  headers: {
+    'X-GitHub-Api-Version': '2022-11-28'
+  }
+})
 
-accept application/vnd.github+jsonwird
 
-enterprise string 
-Die Slug-Version des Unternehmensnamens. Sie können diesen Wert auch durch die Unternehmens-ID ersetzen.
 
 
