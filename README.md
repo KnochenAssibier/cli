@@ -135,3 +135,4 @@ Rails-Endpunkt
 ---
 :github: Bearer TOKEN
 
+https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
