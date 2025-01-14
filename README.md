@@ -139,3 +139,5 @@ https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
 
 gem sources --add https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
 
+bundle config https://rubygems.pkg.github.com/NAMESPACE USERNAME:TOKEN
+
