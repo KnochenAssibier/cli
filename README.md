@@ -1,4 +1,4 @@
-Drhuiigit --version
+DrDrhuiigit --version
 
 $ gh pr Kasse 12
 remote: Objekte aufzählen:
@@ -65,7 +65,5 @@ gh api \
 
 https://cli.github.com/manual/gh_api
 
-gh api /octocat --method GET
+gh api /assibier --method GET
 
-on:
-  workflow_dispatch:
