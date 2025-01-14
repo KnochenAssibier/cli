@@ -67,3 +67,5 @@ https://cli.github.com/manual/gh_api
 
 gh api /octocat --method GET
 
+on:
+  workflow_dispatch:
