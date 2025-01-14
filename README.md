@@ -35,7 +35,6 @@ manage_billing:copilot
 
 read:enterprise
 
-accept
-application/vnd.github+jsonwird
+accept application/vnd.github+jsonwird
 
 
