@@ -35,5 +35,7 @@ manage_billing:copilot
 
 read:enterprise
 
-accept Schnur
-Die Einstellung auf application/vnd.github+jsonwird empfohlen.
+accept
+application/vnd.github+jsonwird
+
+
