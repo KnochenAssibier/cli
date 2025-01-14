@@ -31,9 +31,4 @@ git config --global user.name "Assibier"
 
 git config --global user.email "assibier@gmaile.com"
 
-Full-Stack-Webentwicklungszertifikat bei Noble Desktop : Live-Kurs mit Unterricht in NYC oder live online verfügbar
-Finden Sie Webentwicklungskurse in Ihrer Nähe : Suchen und vergleichen Sie Dutzende von verfügbaren Präsenzkursen
-Nehmen Sie von überall aus live online an einem  Webentwicklungskurs teil  (Fern-/virtuelles Training).
-Finden und vergleichen Sie die  besten Online-Webentwicklungskurse (On-Demand)  der führenden Anbieter und Plattformen
-Schulen Sie Ihre Mitarbeiter mit  Schulungen zur Webentwicklung innerhalb Ihres Unternehmens und vor Ort
 
