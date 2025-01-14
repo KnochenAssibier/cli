@@ -1,4 +1,4 @@
---version
+komm--version
 GH-Version anzeigen
 ext install GitHub.copilot
 
@@ -19,3 +19,6 @@ cli/cli
 GitHubs offizielles Befehlszeilentool
 
 Bild: Screenshot des GH-PR-Status → https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png
+
+
+Sehen Sie sich dieses Repository auf GitHub an: https://github.com/cli/cli
