@@ -37,4 +37,7 @@ read:enterprise
 
 accept application/vnd.github+jsonwird
 
+enterprise string 
+Die Slug-Version des Unternehmensnamens. Sie können diesen Wert auch durch die Unternehmens-ID ersetzen.
+
 
